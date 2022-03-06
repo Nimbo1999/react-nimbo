@@ -22,7 +22,13 @@
         "url": "https://github.com/Nimbo1999/react-nimbo/issues"
     },
     "homepage": "https://github.com/Nimbo1999/react-nimbo#readme",
+    "dependencies": {},
     "devDependencies": {
+        "@jest/types": "^27.5.1",
+        "@testing-library/dom": "^8.11.3",
+        "@testing-library/jest-dom": "^5.16.2",
+        "@testing-library/react": "^12.1.3",
+        "@testing-library/user-event": "^13.5.0",
         "@typescript-eslint/eslint-plugin": "^5.13.0",
         "@typescript-eslint/parser": "^5.13.0",
         "eslint": "^8.10.0",
@@ -32,7 +38,9 @@
         "eslint-plugin-react": "^7.29.3",
         "eslint-plugin-react-hooks": "^4.3.0",
         "eslint-plugin-testing-library": "^5.0.6",
+        "jest": "^27.5.1",
         "prettier": "^2.5.1",
+        "ts-node": "^10.7.0",
         "typescript": "^4.6.2"
     }
 }
