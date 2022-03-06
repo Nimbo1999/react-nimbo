@@ -6,7 +6,7 @@
     "endOfLine": "lf",
     "insertPragma": false,
     "jsxSingleQuote": false,
-    "printWidth": 100,
+    "printWidth": 90,
     "proseWrap": "always",
     "requirePragma": false,
     "semi": true,

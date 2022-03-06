@@ -30,5 +30,6 @@
         "testing-library"
     ],
     "rules": {
+        "@typescript-eslint/no-var-requires": "off"
     }
 }
