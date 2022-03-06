@@ -1,38 +1,38 @@
 {
-  "name": "react-nimbo",
-  "version": "0.0.1",
-  "description": "Component library",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "init": "eslint --init"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nimbo1999/react-nimbo.git"
-  },
-  "keywords": [
-    "ReactJS",
-    "Components",
-    "UI"
-  ],
-  "author": "Matheus Lopes",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Nimbo1999/react-nimbo/issues"
-  },
-  "homepage": "https://github.com/Nimbo1999/react-nimbo#readme",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.13.0",
-    "@typescript-eslint/parser": "^5.13.0",
-    "eslint": "^8.10.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jest-dom": "^4.0.1",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.29.3",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-testing-library": "^5.0.6",
-    "prettier": "^2.5.1",
-    "typescript": "^4.6.2"
-  }
+    "name": "react-nimbo",
+    "version": "0.0.1",
+    "description": "Component library",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "init": "eslint --init"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nimbo1999/react-nimbo.git"
+    },
+    "keywords": [
+        "ReactJS",
+        "Components",
+        "UI"
+    ],
+    "author": "Matheus Lopes",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Nimbo1999/react-nimbo/issues"
+    },
+    "homepage": "https://github.com/Nimbo1999/react-nimbo#readme",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.13.0",
+        "@typescript-eslint/parser": "^5.13.0",
+        "eslint": "^8.10.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-jest-dom": "^4.0.1",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-react": "^7.29.3",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "eslint-plugin-testing-library": "^5.0.6",
+        "prettier": "^2.5.1",
+        "typescript": "^4.6.2"
+    }
 }
