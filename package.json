@@ -1,0 +1,29 @@
+{
+  "name": "react-nimbo",
+  "version": "0.0.1",
+  "description": "Component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nimbo1999/react-nimbo.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "Components",
+    "UI"
+  ],
+  "author": "Matheus Lopes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nimbo1999/react-nimbo/issues"
+  },
+  "homepage": "https://github.com/Nimbo1999/react-nimbo#readme",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.6.2"
+  }
+}
