@@ -15,6 +15,9 @@
         "type": "git",
         "url": "git+https://github.com/Nimbo1999/react-nimbo.git"
     },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
     "keywords": [
         "ReactJS",
         "Components",
