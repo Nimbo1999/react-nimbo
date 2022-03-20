@@ -5,7 +5,9 @@
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "types": "dist/index.d.ts",
-    "files": ["dist"],
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "rollup -c",
         "test": "jest --watch",
@@ -31,7 +33,8 @@
     "homepage": "https://github.com/Nimbo1999/react-nimbo#readme",
     "dependencies": {
         "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "react-dom": "^17.0.2",
+        "styled-components": "^5.3.3"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.16.11",
@@ -46,6 +49,7 @@
         "@testing-library/react": "^12.1.3",
         "@testing-library/user-event": "^13.5.0",
         "@types/react": "^17.0.39",
+        "@types/styled-components": "^5.1.24",
         "@typescript-eslint/eslint-plugin": "^5.13.0",
         "@typescript-eslint/parser": "^5.13.0",
         "babel-jest": "^27.5.1",
