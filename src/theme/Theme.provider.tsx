@@ -1,4 +1,5 @@
-import { DefaultTheme } from 'styled-components';
+import { FC } from 'react';
+import { DefaultTheme, ThemeProvider } from 'styled-components';
 
 const BASE_UNIT = Number(process.env.STYLE_BASE_UNIT) || 8;
 
@@ -29,4 +30,8 @@ const theme: DefaultTheme = {
     spacing: (value: number) => `${BASE_UNIT * value}px`
 };
 
-export default theme;
+const ThemeProviderWrapper: FC = ({ children }) => (
+    <ThemeProvider theme={theme}>{children}</ThemeProvider>
+);
+
+export default ThemeProviderWrapper;
