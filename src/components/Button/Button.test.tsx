@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, theme } from '../../test/testing-library.config';
 
 import Button from '.';
 
@@ -15,7 +15,13 @@ describe('Button component tests', () => {
         expect(button).toHaveStyle('background-color: blue');
         expect(button).toHaveStyle('color: black');
     });
+
+    test('Should render button with primary styles', () => {
+        render(<Button btnType="primary">Primary button</Button>);
+        const button = screen.getByRole('button', { name: /primary button/i });
+        expect(button).toHaveStyle(`background-color: ${theme.palette.primary.base};`);
+        expect(button).toHaveStyle(`color: ${theme.palette.white};`);
+    });
 });
 
-// Todo: Import custom 'render' function of file src/test/testing-library.config.tsx here and
-// Create a test with custom theme
+// Todo: Create a test with custom theme

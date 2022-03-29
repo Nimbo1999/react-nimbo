@@ -3,7 +3,7 @@ import { DefaultTheme, ThemeProvider } from 'styled-components';
 
 const BASE_UNIT = Number(process.env.STYLE_BASE_UNIT) || 8;
 
-const theme: DefaultTheme = {
+export const theme: DefaultTheme = {
     palette: {
         white: '#E2E2E2',
         background: {
